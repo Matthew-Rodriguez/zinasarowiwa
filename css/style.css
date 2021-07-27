@@ -64,7 +64,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow: hidden !important;
   background: center;
 }
 
@@ -2345,13 +2345,13 @@ main {
   .header .swiper-container .swiper-button-prev {
     position: absolute;
     right: 0;
-    color: rgb(215, 33, 33);
+    color: rgb(255, 255, 255);
 top: 90%;  }
 
   .header .swiper-container .swiper-button-next {
     position: absolute;
     right: 0;
-    color: rgb(215, 33, 33);
+    color: rgb(255, 255, 255);
 top: 90%;    
   }
 
@@ -2736,14 +2736,14 @@ top: 90%;
     .header .swiper-container .swiper-button-prev {
       position: absolute;
       right: 0;
-      color: rgb(215, 33, 33);
-  top: 80%;  }
+      color: rgb(0, 0, 0);
+  top: 75%;  }
   
     .header .swiper-container .swiper-button-next {
       position: absolute;
       right: 0;
-      color: rgb(215, 33, 33);
-  top: 80%;    
+      color: rgb(0, 0, 0);
+  top: 75%;    
     }
   
 
@@ -2760,13 +2760,13 @@ top: 90%;
     .header .swiper-container .swiper-button-prev {
       position: absolute;
       right: 0;
-      color: rgb(215, 33, 33);
+      color: rgb(0, 0, 0);
   top: 90%;  }
   
     .header .swiper-container .swiper-button-next {
       position: absolute;
       right: 0;
-      color: rgb(215, 33, 33);
+      color: rgb(0, 0, 0);
   top: 90%;    
     }
   
